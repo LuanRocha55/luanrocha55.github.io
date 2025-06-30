@@ -4,11 +4,54 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Luan Rocha - Portfólio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
-  <h1>Olá! Eu sou Luan Rocha 👋</h1>
-  <p>Desenvolvedor Front-End | Projetos em React, Firebase e Moodle</p>
-  <p>Email: luharocha55@gmail.com</p>
-  <p><a href="https://github.com/LuanRocha55" target="_blank">Ver meu GitHub</a></p>
+<body class="bg-gray-900 text-white font-sans">
+  <header class="bg-gray-800 p-6 shadow-md">
+    <div class="max-w-4xl mx-auto flex flex-col sm:flex-row items-center justify-between">
+      <h1 class="text-3xl font-bold text-cyan-400">Luan Rocha</h1>
+      <nav class="mt-4 sm:mt-0 space-x-4">
+        <a href="#sobre" class="hover:text-cyan-300">Sobre</a>
+        <a href="#projetos" class="hover:text-cyan-300">Projetos</a>
+        <a href="#contato" class="hover:text-cyan-300">Contato</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="max-w-4xl mx-auto px-4 py-10">
+    <section id="sobre" class="mb-16">
+      <h2 class="text-2xl font-bold mb-4 text-cyan-400">👨‍💻 Sobre Mim</h2>
+      <p class="text-gray-300 leading-relaxed">
+        Sou desenvolvedor front-end com foco em React, Firebase e aplicações educacionais.
+        Atuo na criação de sistemas para EAD, automações em Moodle, dashboards interativos e uso de IA no suporte à aprendizagem.
+      </p>
+    </section>
+
+    <section id="projetos" class="mb-16">
+      <h2 class="text-2xl font-bold mb-4 text-cyan-400">🚀 Projetos</h2>
+      <ul class="space-y-6">
+        <li class="bg-gray-800 p-4 rounded-lg shadow">
+          <h3 class="text-xl font-semibold">Painel de Controle Financeiro</h3>
+          <p class="text-gray-400">Dashboard com React, Firebase e Recharts para controle de orçamento pessoal com IA.</p>
+          <a href="https://github.com/LuanRocha55" class="text-cyan-400 hover:underline mt-2 inline-block">Ver no GitHub</a>
+        </li>
+        <li class="bg-gray-800 p-4 rounded-lg shadow">
+          <h3 class="text-xl font-semibold">Calendário Acadêmico Interativo</h3>
+          <p class="text-gray-400">Aplicação em HTML/CSS/JS com foco em responsividade, acessibilidade e personalização para Moodle.</p>
+          <a href="https://github.com/LuanRocha55" class="text-cyan-400 hover:underline mt-2 inline-block">Ver no GitHub</a>
+        </li>
+      </ul>
+    </section>
+
+    <section id="contato">
+      <h2 class="text-2xl font-bold mb-4 text-cyan-400">📫 Contato</h2>
+      <p>Email: <a href="mailto:luharocha55@gmail.com" class="text-cyan-300 hover:underline">luharocha55@gmail.com</a></p>
+      <p>GitHub: <a href="https://github.com/LuanRocha55" target="_blank" class="text-cyan-300 hover:underline">github.com/LuanRocha55</a></p>
+    </section>
+  </main>
+
+  <footer class="bg-gray-800 text-center p-4 text-sm text-gray-400">
+    © 2025 Luan Rocha. Todos os direitos reservados.
+  </footer>
 </body>
 </html>
